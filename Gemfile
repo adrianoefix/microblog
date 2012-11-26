@@ -3,16 +3,12 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.9'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
-
+gem 'will_paginate', '3.0.3'
+gem 'mysql2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :production do
-  gem 'pg', '0.12.2'
-end
-
 group :development, :test do
-	gem 'mysql2'
   gem 'rspec-rails', '2.11.0'
 end
 

@@ -1,0 +1,4 @@
+class AddAdminToUsers:boolean < ActiveRecord::Migration
+  def change
+  end
+end
